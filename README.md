@@ -1,0 +1,1 @@
+# hackintosh-x570-5800x-6600xt
