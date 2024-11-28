@@ -141,7 +141,7 @@
 			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
 			<dict>
 				<key>layout-id</key>
-				<integer>2</integer>
+				<integer>20</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1560,14 +1560,14 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02050101GUJG36FB</string>
+			<string>C02014207J9JG361H</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>3841</integer>
 			<key>ROM</key>
 			<data>
-			2GMmGDFQ
+			PSzVLLmz
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
@@ -1576,9 +1576,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DTYZ4HX87</string>
+			<string>C02CJ0YCHX87</string>
 			<key>SystemUUID</key>
-			<string>9BA1F560-AC41-4268-B7F1-E98892DA6ABF</string>
+			<string>3EAB35AC-29AF-4832-8B28-C4D205926C68</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
