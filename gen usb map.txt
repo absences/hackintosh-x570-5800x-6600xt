@@ -1,0 +1,13 @@
+Before using EFI, please complete the following steps:
+
+1. Use USBToolBox:
+   - Mapping USB with the option 'Use Native Class' enabled.
+   - Use the model identifier 'iMacPro1,1'.
+
+2. Add USBMap.kext:
+   - Place the created USBMap.kext file into the EFI\OC\Kexts folder.
+
+3. Edit config.plist:
+   - Use ProperTree to open your config.plist.
+   - Run OC Snapshot by pressing Command/Ctrl + R.
+   - Save the file when finished.
