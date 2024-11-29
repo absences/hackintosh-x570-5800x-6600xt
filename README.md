@@ -15,49 +15,45 @@ Current hardware:
 
 how to Generate EFI?
 
-    https://github.com/lzhoang2801/OpCore-Simplify
+https://github.com/lzhoang2801/OpCore-Simplify
 
     On Windows, run OpCore-Simplify.bat
 
     Input 1 => E to Generate Report json file
 
-    optional:Input 5,Custonmize SMBIOS Model
+    optional:Input 5, Custonmize SMBIOS Model
 
     Input 6 => Build OpenCore EFI
 
     USB Maping:
     
-    https://github.com/USBToolBox/tool
+https://github.com/USBToolBox/tool/releases/download/0.2/Windows.exe
 
-    https://github.com/USBToolBox/tool/releases/download/0.2/Windows.exe
-
-    Next:
+    Input C => N , Use Natice Classes
 
     Input D Discover your Usb ports
     
-        Use a Usb 3.0 Devices EVERY-PORT inserted once
+        Use a Usb 3.0 device EVERY-PORT inserted once
 
-        optional: usb2.0  that's also the case
+        optional: usb2.0 device that's also the case
 
         if type-c port , both sides need to be inserted once
 
         Input B : Back
 
-    Input S => K to build usbmap.kext
+    Input S => K to build usbmap.kext, input smbios info (same with above) 
 
-    Next:
-
-    https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip
+https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip
 
     copy usbmap.kext to efi/oc/kexts folder
 
     run ProperTree.bat
 
-    open config.plist
+    open file: config.plist
 
-    pressing Ctrl+R ,select OC Folder
+    pressing Ctrl+R , select OC Folder
 
-    notes:if  stack EB ,  Find FixupAppleEfiImages=>false  SetupVirtualMap=>true
+    notes: if stack EB , Edit config.plist, Find FixupAppleEfiImages => false  SetupVirtualMap => true
     
     Save the file
 
