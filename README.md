@@ -58,3 +58,6 @@ https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip
     Save the file
 
 
+wired network not work!
+
+wireless use https://github.com/OpenIntelWireless/HeliPort to connect wifi
