@@ -1,7 +1,7 @@
 # hackintosh-x570-5800x-6600xt
 macOS Sonoma 15.1.1
 
-OpenCore ver :0.9.8
+OpenCore ver :1.0.3
 
 Current hardware:
 
