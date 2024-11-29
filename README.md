@@ -57,6 +57,8 @@ how to Generate EFI?
 
     pressing Ctrl+R ,select OC Folder
 
+    notes:if  stack EB ,  Find FixupAppleEfiImages=>false  SetupVirtualMap=>true
+    
     Save the file
 
 
