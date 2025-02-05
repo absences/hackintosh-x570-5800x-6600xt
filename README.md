@@ -1,9 +1,9 @@
 # hackintosh-x570-5800x-6600xt
-macOS Sonoma 15.1.1
+macOS Sonoma 15.x
 
-OpenCore ver :1.0.3
+OpenCore Version :1.0.3
 
-Current hardware:
+Current Hardware:
 
     procesador:AMD Ryzen 5800x
 
@@ -13,7 +13,7 @@ Current hardware:
 
     WiFI / Bt: intel ax200
 
-how to Generate EFI?
+How to Generate EFI?
 
 https://github.com/lzhoang2801/OpCore-Simplify
 
