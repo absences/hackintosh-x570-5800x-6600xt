@@ -25,7 +25,7 @@ https://github.com/lzhoang2801/OpCore-Simplify
 
     Input 6 => Build OpenCore EFI
 
-    USB Maping:
+USB Maping:
     
 https://github.com/USBToolBox/tool/releases/download/0.2/Windows.exe
 
@@ -43,6 +43,8 @@ https://github.com/USBToolBox/tool/releases/download/0.2/Windows.exe
 
     Input S => K to build usbmap.kext, input smbios info (same with above) 
 
+Apply:
+
 https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip
 
     copy usbmap.kext to efi/oc/kexts folder
@@ -58,6 +60,6 @@ https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip
     Save the file
 
 
-wired network not work!
+wired network not working!
 
 wireless use https://github.com/OpenIntelWireless/HeliPort to connect wifi
