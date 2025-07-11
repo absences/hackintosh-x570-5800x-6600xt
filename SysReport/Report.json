@@ -4,6 +4,13 @@
         "Chipset": "X570",
         "Platform": "Desktop"
     },
+    "BIOS": {
+        "Version": "F39d",
+        "Release Date": "2024-09-02",
+        "System Type": "x64-based",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Disabled"
+    },
     "CPU": {
         "Manufacturer": "AMD",
         "Processor Name": "AMD Ryzen 7 5800X 8-Core Processor",
@@ -48,13 +55,21 @@
         }
     },
     "Sound": {
+        "Rapoo Gaming Headset": {
+            "Bus Type": "USB",
+            "Device ID": "24AE-7003",
+            "Audio Endpoints": [
+                "\u626c\u58f0\u5668",
+                "\u9ea6\u514b\u98ce"
+            ]
+        },
         "Realtek(R) Audio": {
             "Bus Type": "HDAUDIO",
             "Device ID": "10EC-1220",
             "Subsystem ID": "1458A0C3",
             "Audio Endpoints": [
-                "\u626c\u58f0\u5668",
-                "Realtek Digital Output"
+                "Realtek Digital Output",
+                "\u626c\u58f0\u5668"
             ],
             "Controller Device ID": "1022-1487"
         },
@@ -71,18 +86,8 @@
             "Bus Type": "USB",
             "Device ID": "1B17-15B0",
             "Audio Endpoints": [
-                "Microphone"
-            ],
-            "Controller Device ID": "1B17-15B0"
-        },
-        "Rapoo Gaming Headset": {
-            "Bus Type": "USB",
-            "Device ID": "24AE-7003",
-            "Audio Endpoints": [
-                "\u9ea6\u514b\u98ce",
-                "\u626c\u58f0\u5668"
-            ],
-            "Controller Device ID": "24AE-7003"
+                "\u9ea6\u514b\u98ce"
+            ]
         }
     },
     "USB Controllers": {
@@ -131,7 +136,11 @@
             "Bus Type": "PCI",
             "Device ID": "1022-7901",
             "Subsystem ID": "79011022",
-            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0xa,0x0)/Pci(0x0,0x0)"
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0xa,0x0)/Pci(0x0,0x0)",
+            "Disk Drives": [
+                "ST1000DM010-2DM162",
+                "ST1000DM010-2EP102"
+            ]
         },
         "FCH SATA Controller [AHCI mode]_#1": {
             "Bus Type": "PCI",
@@ -144,13 +153,19 @@
             "Device ID": "1987-5016",
             "Subsystem ID": "50161987",
             "PCI Path": "PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)",
-            "ACPI Path": "\\_SB.PCI0.BXBR.BYUP.BYD1.BYS1"
+            "ACPI Path": "\\_SB.PCI0.BXBR.BYUP.BYD1.BYS1",
+            "Disk Drives": [
+                "GALAX HA1K1000N"
+            ]
         },
         "PS5019-E19 PCIe4 NVMe Controller (DRAM-less)": {
             "Bus Type": "PCI",
             "Device ID": "1987-5019",
             "Subsystem ID": "50191987",
-            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)"
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "Disk Drives": [
+                "Phison CFESR512GMTCT-E9C-2"
+            ]
         }
     },
     "Bluetooth": {
@@ -211,18 +226,10 @@
             "Bus Type": "ROOT",
             "Device": "AMDXE"
         },
-        "Microsoft \u865a\u62df\u673a\u76d1\u63a7\u7a0b\u5e8f\u670d\u52a1": {
-            "Bus Type": "ROOT",
-            "Device": "HVSERVICE"
-        },
         "AMD GPIO Controller": {
             "Bus Type": "ACPI",
             "Device": "AMDI0030",
             "ACPI Path": "\\_SB.GPIO"
-        },
-        "UMBus Enumerator": {
-            "Bus Type": "UMB",
-            "Device": "UMB"
         },
         "AMD PCI": {
             "Bus Type": "PCI",
@@ -298,10 +305,6 @@
             "Bus Type": "ACPI",
             "Device": "PNP0800",
             "ACPI Path": "\\_SB.PCI0.SBRG.SPKR"
-        },
-        "UMBus Enumerator_#1": {
-            "Bus Type": "UMB",
-            "Device": "UMB"
         },
         "AMD PCI Express Downstream Switch Port": {
             "Bus Type": "PCI",
@@ -448,14 +451,6 @@
             "Bus Type": "ROOT",
             "Device": "BASICRENDER"
         },
-        "\u8fdc\u7a0b\u684c\u9762\u76f8\u673a\u603b\u7ebf": {
-            "Bus Type": "UMB",
-            "Device": "UMB"
-        },
-        "UMBus Enumerator_#2": {
-            "Bus Type": "UMB",
-            "Device": "UMB"
-        },
         "Microsoft UEFI \u517c\u5bb9\u7cfb\u7edf": {
             "Bus Type": "ACPI_HAL",
             "Device": "UEFI"
@@ -496,18 +491,10 @@
             "Device": "PNP0C14",
             "ACPI Path": "\\_SB.PCI0.WMI1"
         },
-        "VMware VMCI Host Device": {
-            "Bus Type": "ROOT",
-            "Device": "VMWVMCIHOSTDEV"
-        },
         "ACPI \u7535\u6e90\u6309\u94ae": {
             "Bus Type": "ACPI",
             "Device": "PNP0C0C",
             "ACPI Path": "\\_SB.PWRB"
-        },
-        "Remote Desktop USB Hub": {
-            "Bus Type": "TS_USB_HUB_ENUMERATOR",
-            "Device": "UMB"
         },
         "PCI \u6807\u51c6\u4e3b\u673a CPU \u6865_#14": {
             "Bus Type": "PCI",
@@ -576,6 +563,10 @@
             "ACPI Path": "\\_SB.PCI0.GPP8"
         },
         "\u5373\u63d2\u5373\u7528\u8f6f\u4ef6\u8bbe\u5907\u679a\u4e3e\u5668": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "AMD Special Tools Driver": {
             "Bus Type": "ROOT",
             "Device": "SYSTEM"
         },

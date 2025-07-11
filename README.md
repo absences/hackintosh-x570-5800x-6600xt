@@ -1,9 +1,9 @@
 # hackintosh-x570-5800x-6600xt
-macOS Sonoma 15.x
+macOS Sonoma 15.1.1
 
-OpenCore Version :1.0.3
+OpenCore ver :1.0.3
 
-Current Hardware:
+Current hardware:
 
     procesador:AMD Ryzen 5800x
 
@@ -13,7 +13,7 @@ Current Hardware:
 
     WiFI / Bt: intel ax200
 
-How to Generate EFI?
+how to Generate EFI?
 
 https://github.com/lzhoang2801/OpCore-Simplify
 
@@ -25,7 +25,7 @@ https://github.com/lzhoang2801/OpCore-Simplify
 
     Input 6 => Build OpenCore EFI
 
-USB Maping:
+    USB Maping:
     
 https://github.com/USBToolBox/tool/releases/download/0.2/Windows.exe
 
@@ -43,8 +43,6 @@ https://github.com/USBToolBox/tool/releases/download/0.2/Windows.exe
 
     Input S => K to build usbmap.kext, input smbios info (same with above) 
 
-Apply:
-
 https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip
 
     copy usbmap.kext to efi/oc/kexts folder
@@ -60,6 +58,6 @@ https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip
     Save the file
 
 
-wired network not working!
+wired network not work!
 
 wireless use https://github.com/OpenIntelWireless/HeliPort to connect wifi
