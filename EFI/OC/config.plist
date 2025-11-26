@@ -329,24 +329,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>itlwm.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -929,7 +911,7 @@
 				<key>Mask</key>
 				<data>8P//8A==</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
@@ -1369,7 +1351,7 @@
 				<key>bluetoothInternalControllerInfo</key>
 				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>boot-args</key>
-				<string>debug=0x100 keepsyms=1 npci=0x2000 agdpmod=pikera</string>
+				<string>keepsyms=1 npci=0x2000 agdpmod=pikera -lilubetaall</string>
 				<key>csr-active-config</key>
 				<data>AwoAAA==</data>
 				<key>prev-lang:kbd</key>

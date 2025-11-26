@@ -55,14 +55,6 @@
         }
     },
     "Sound": {
-        "Rapoo Gaming Headset": {
-            "Bus Type": "USB",
-            "Device ID": "24AE-7003",
-            "Audio Endpoints": [
-                "\u626c\u58f0\u5668",
-                "\u9ea6\u514b\u98ce"
-            ]
-        },
         "Realtek(R) Audio": {
             "Bus Type": "HDAUDIO",
             "Device ID": "10EC-1220",
@@ -87,6 +79,14 @@
             "Device ID": "1B17-15B0",
             "Audio Endpoints": [
                 "\u9ea6\u514b\u98ce"
+            ]
+        },
+        "Rapoo Gaming Headset": {
+            "Bus Type": "USB",
+            "Device ID": "24AE-7003",
+            "Audio Endpoints": [
+                "\u9ea6\u514b\u98ce",
+                "\u626c\u58f0\u5668"
             ]
         }
     },
@@ -231,6 +231,10 @@
             "Device": "AMDI0030",
             "ACPI Path": "\\_SB.GPIO"
         },
+        "UMBus Enumerator": {
+            "Bus Type": "UMB",
+            "Device": "UMB"
+        },
         "AMD PCI": {
             "Bus Type": "PCI",
             "Device ID": "1022-148A",
@@ -305,6 +309,10 @@
             "Bus Type": "ACPI",
             "Device": "PNP0800",
             "ACPI Path": "\\_SB.PCI0.SBRG.SPKR"
+        },
+        "UMBus Enumerator_#1": {
+            "Bus Type": "UMB",
+            "Device": "UMB"
         },
         "AMD PCI Express Downstream Switch Port": {
             "Bus Type": "PCI",
@@ -451,6 +459,14 @@
             "Bus Type": "ROOT",
             "Device": "BASICRENDER"
         },
+        "\u8fdc\u7a0b\u684c\u9762\u76f8\u673a\u603b\u7ebf": {
+            "Bus Type": "UMB",
+            "Device": "UMB"
+        },
+        "UMBus Enumerator_#2": {
+            "Bus Type": "UMB",
+            "Device": "UMB"
+        },
         "Microsoft UEFI \u517c\u5bb9\u7cfb\u7edf": {
             "Bus Type": "ACPI_HAL",
             "Device": "UEFI"
@@ -495,6 +511,10 @@
             "Bus Type": "ACPI",
             "Device": "PNP0C0C",
             "ACPI Path": "\\_SB.PWRB"
+        },
+        "Remote Desktop USB Hub": {
+            "Bus Type": "TS_USB_HUB_ENUMERATOR",
+            "Device": "UMB"
         },
         "PCI \u6807\u51c6\u4e3b\u673a CPU \u6865_#14": {
             "Bus Type": "PCI",
