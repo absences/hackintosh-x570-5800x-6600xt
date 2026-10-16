@@ -5,8 +5,8 @@
         "Platform": "Desktop"
     },
     "BIOS": {
-        "Version": "F39d",
-        "Release Date": "2024-09-02",
+        "Version": "F39",
+        "Release Date": "2025-10-28",
         "System Type": "x64-based",
         "Firmware Type": "UEFI",
         "Secure Boot": "Disabled"
@@ -55,6 +55,13 @@
         }
     },
     "Sound": {
+        "UDS WebCam": {
+            "Bus Type": "USB",
+            "Device ID": "1B17-15B0",
+            "Audio Endpoints": [
+                "\u9ea6\u514b\u98ce"
+            ]
+        },
         "Realtek(R) Audio": {
             "Bus Type": "HDAUDIO",
             "Device ID": "10EC-1220",
@@ -73,21 +80,6 @@
                 "5 - VX2780-4K-hd"
             ],
             "Controller Device ID": "1002-AB28"
-        },
-        "UDS WebCam": {
-            "Bus Type": "USB",
-            "Device ID": "1B17-15B0",
-            "Audio Endpoints": [
-                "\u9ea6\u514b\u98ce"
-            ]
-        },
-        "Rapoo Gaming Headset": {
-            "Bus Type": "USB",
-            "Device ID": "24AE-7003",
-            "Audio Endpoints": [
-                "\u9ea6\u514b\u98ce",
-                "\u626c\u58f0\u5668"
-            ]
         }
     },
     "USB Controllers": {
@@ -118,17 +110,17 @@
             "Bus Type": "USB",
             "Device ID": "048D-8297"
         },
-        "MaxTrack Wireless Mouse": {
-            "Bus Type": "USB",
-            "Device ID": "0C45-0520"
-        },
         "USB \u8f93\u5165\u8bbe\u5907": {
             "Bus Type": "USB",
-            "Device ID": "24AE-4186"
+            "Device ID": "24AE-4056"
         },
         "USB \u8f93\u5165\u8bbe\u5907_#1": {
             "Bus Type": "USB",
-            "Device ID": "24AE-7003"
+            "Device ID": "24AE-4186"
+        },
+        "MSR-101U Mini HID magnetic card reader": {
+            "Bus Type": "USB",
+            "Device ID": "5131-2007"
         }
     },
     "Storage Controllers": {
@@ -138,8 +130,8 @@
             "Subsystem ID": "79011022",
             "PCI Path": "PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0xa,0x0)/Pci(0x0,0x0)",
             "Disk Drives": [
-                "ST1000DM010-2DM162",
-                "ST1000DM010-2EP102"
+                "ST1000DM010-2EP102",
+                "TOSHIBA DT01ACA100                LENOVO"
             ]
         },
         "FCH SATA Controller [AHCI mode]_#1": {
@@ -152,19 +144,9 @@
             "Bus Type": "PCI",
             "Device ID": "1987-5016",
             "Subsystem ID": "50161987",
-            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)",
-            "ACPI Path": "\\_SB.PCI0.BXBR.BYUP.BYD1.BYS1",
-            "Disk Drives": [
-                "GALAX HA1K1000N"
-            ]
-        },
-        "PS5019-E19 PCIe4 NVMe Controller (DRAM-less)": {
-            "Bus Type": "PCI",
-            "Device ID": "1987-5019",
-            "Subsystem ID": "50191987",
             "PCI Path": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
             "Disk Drives": [
-                "Phison CFESR512GMTCT-E9C-2"
+                "GALAX HA1K1000N"
             ]
         }
     },
@@ -329,13 +311,6 @@
         },
         "PCI Express \u4e0b\u6e38\u4ea4\u6362\u673a\u7aef\u53e3": {
             "Bus Type": "PCI",
-            "Device ID": "1022-57A3",
-            "Subsystem ID": "14531022",
-            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0x1,0x0)",
-            "ACPI Path": "\\_SB.PCI0.BXBR.BYUP.BYD1"
-        },
-        "PCI Express \u4e0b\u6e38\u4ea4\u6362\u673a\u7aef\u53e3_#1": {
-            "Bus Type": "PCI",
             "Device ID": "1022-57A4",
             "Subsystem ID": "14841022",
             "PCI Path": "PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0x8,0x0)",
@@ -392,7 +367,7 @@
             "Bus Type": "ROOT",
             "Device": "UMBUS"
         },
-        "PCI Express \u4e0b\u6e38\u4ea4\u6362\u673a\u7aef\u53e3_#2": {
+        "PCI Express \u4e0b\u6e38\u4ea4\u6362\u673a\u7aef\u53e3_#1": {
             "Bus Type": "PCI",
             "Device ID": "1022-57A3",
             "Subsystem ID": "14531022",
@@ -416,14 +391,14 @@
             "Device": "PNP0C01",
             "ACPI Path": "\\_SB.PCI0.AMDN"
         },
-        "PCI Express \u4e0b\u6e38\u4ea4\u6362\u673a\u7aef\u53e3_#3": {
+        "PCI Express \u4e0b\u6e38\u4ea4\u6362\u673a\u7aef\u53e3_#2": {
             "Bus Type": "PCI",
             "Device ID": "1022-57A3",
             "Subsystem ID": "14531022",
             "PCI Path": "PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0x3,0x0)",
             "ACPI Path": "\\_SB.PCI0.BXBR.BYUP.BYD3"
         },
-        "PCI Express \u4e0b\u6e38\u4ea4\u6362\u673a\u7aef\u53e3_#4": {
+        "PCI Express \u4e0b\u6e38\u4ea4\u6362\u673a\u7aef\u53e3_#3": {
             "Bus Type": "PCI",
             "Device ID": "1022-57A4",
             "Subsystem ID": "14841022",
@@ -445,7 +420,7 @@
             "Subsystem ID": "00000000",
             "PCI Path": "PciRoot(0x0)/Pci(0x18,0x0)"
         },
-        "PCI Express \u4e0b\u6e38\u4ea4\u6362\u673a\u7aef\u53e3_#5": {
+        "PCI Express \u4e0b\u6e38\u4ea4\u6362\u673a\u7aef\u53e3_#4": {
             "Bus Type": "PCI",
             "Device ID": "1022-57A4",
             "Subsystem ID": "14841022",
@@ -586,7 +561,15 @@
             "Bus Type": "ROOT",
             "Device": "SYSTEM"
         },
+        "Nefarius Virtual Gamepad Emulation Bus": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
         "AMD Special Tools Driver": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "UUYCInput HID": {
             "Bus Type": "ROOT",
             "Device": "SYSTEM"
         },
