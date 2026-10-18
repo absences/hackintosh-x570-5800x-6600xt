@@ -160,7 +160,7 @@
 			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
 			<dict>
 				<key>layout-id</key>
-				<integer>2</integer>
+				<integer>17</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
