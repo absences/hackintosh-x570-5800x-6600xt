@@ -56,8 +56,3 @@ https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip
     notes: if stack EB , Edit config.plist, Find FixupAppleEfiImages => false  SetupVirtualMap => true
     
     Save the file
-
-
-wired network not work!
-
-wireless use https://github.com/OpenIntelWireless/HeliPort to connect wifi
